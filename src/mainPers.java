@@ -1,4 +1,5 @@
-public class mainPers {
+public class mainPers
+{
     public static void main(String[] age)
     {   //Создать массив из 5 сотрудников;
         Employee[] employees = new Employee[5];
@@ -8,7 +9,8 @@ public class mainPers {
         employees[3] = new Employee("Alecsandr Petrovich Malahov", "водитель DPS", "Malahov@mail.ru", 950308004, 65000, 38);
         employees[4] = new Employee("Max Alecsandrovich Dikii", " главный председатель head of the State Duma", "Dikii@mail.ru", 999999980, 420000, 55);
         for (int i = 0; i < employees.length; i++)
-        {   //С помощью цикла вывести информацию только о сотрудниках старше 40 лет;
+        {
+            //С помощью цикла вывести информацию только о сотрудниках старше 40 лет;
             if (employees[i].getAge() > 40)
             {
                 employees[i].information();
